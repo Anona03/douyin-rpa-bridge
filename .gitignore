@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.venv/
+venv/
+
+# Secrets & Environment
+.env
+.env.local
+
+# Browser Session & Runtime State (NEVER COMMIT)
+browser_profile/
+bridge_inbox/
+bridge_archive/
+bridge_outbox/
+processed_history.json
+outbox_queue.txt
+runtime/
+*.png
+*.log
+
+# IDE
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
